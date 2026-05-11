@@ -1,0 +1,15 @@
+# .gitignore
+
+```gitignore
+__pycache__/
+*.pyc
+.env
+venv/
+.idea/
+.vscode/
+*.csv
+*.log
+node_modules/
+.DS_Store
+firebase_config.json
+secrets.json

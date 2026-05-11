@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Methane Monitoring Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Dairy Farm Dashboard</h1>
+
+        <div class="card">
+            <h2>Methane Level</h2>
+            <p>{{ data.methane }} ppm</p>
+        </div>
+
+        <div class="card">
+            <h2>Temperature</h2>
+            <p>{{ data.temperature }} °C</p>
+        </div>
+
+        <div class="card">
+            <h2>Humidity</h2>
+            <p>{{ data.humidity }} %</p>
+        </div>
+
+        <div class="card">
+            <h2>Status</h2>
+            <p>{{ data.status }}</p>
+        </div>
+    </div>
+</body>
+</html>
